@@ -1,4 +1,13 @@
-"scripts": {
-  "postinstall": "puppeteer install",
-  "start": "node node.js"
+{
+  "name": "rollbet-timer-tracker",
+  "version": "1.0.0",
+  "description": "Tracks rain timer on rollbet.gg",
+  "main": "node.js",
+  "scripts": {
+    "postinstall": "puppeteer install",
+    "start": "node node.js"
+  },
+  "dependencies": {
+    "puppeteer": "^24.6.0"
+  }
 }
