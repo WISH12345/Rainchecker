@@ -1,13 +1,12 @@
 {
   "name": "rollbet-timer-tracker",
   "version": "1.0.0",
-  "description": "Tracks timer on rollbet.gg",
+  "description": "Tracks rain timer on rollbet.gg",
   "main": "node.js",
   "scripts": {
-    "postinstall": "node node_modules/puppeteer/install.js",
     "start": "node node.js"
   },
   "dependencies": {
-    "puppeteer": "^24.6.0"
+    "puppeteer": "21.3.8"
   }
 }
