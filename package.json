@@ -1,4 +1,11 @@
 {
+  "name": "rollbet-timer-tracker",
+  "version": "1.0.0",
+  "description": "Monitors rollbet.gg rain timer and triggers action when time is up.",
+  "main": "node.js",
+  "scripts": {
+    "start": "node node.js"
+  },
   "dependencies": {
     "puppeteer": "^24.6.0"
   }
